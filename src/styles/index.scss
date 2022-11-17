@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import "./abstracts/colors.scss";
+@import "./abstracts/fonts.scss";
+
+#wrapper {
+    font-family: "Museo", "Segoe UI", "Arial", sans-serif;
+    @import "header";
+}

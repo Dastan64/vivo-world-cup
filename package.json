@@ -1,0 +1,26 @@
+{
+  "name": "parcel-set",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "clean:output": "rimraf dist",
+    "start": "npm run clean:output && parcel --open",
+    "build": "npm run clean:output && parcel build --public-url ./ --no-source-maps"
+  },
+  "keywords": [
+    "parcel"
+  ],
+  "author": "Dastan",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0",
+    "parcel-reporter-static-files-copy": "^1.4.0",
+    "rimraf": "^3.0.2"
+  },
+  "staticFiles": {
+    "staticPath": "./src/static"
+  }
+}
