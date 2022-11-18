@@ -6,7 +6,7 @@
   "source": "src/index.html",
   "scripts": {
     "clean:output": "rimraf dist",
-    "start": "npm run clean:output && parcel --open",
+    "start": "npm run clean:output && parcel --open --no-cache",
     "build": "npm run clean:output && parcel build --public-url ./ --no-source-maps"
   },
   "keywords": [
