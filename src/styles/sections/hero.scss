@@ -6,14 +6,17 @@
   min-height: 440px;
   color: $white;
   background: url("https://www.technodom.kz/under/banners/vivo-world-cup/hero/hero-bg.png") no-repeat center center / cover;
+
   @media screen and (max-width: 1023px) {
     min-height: 400px;
+    align-items: center;
     background: url("https://www.technodom.kz/under/banners/vivo-world-cup/hero/hero-bg-mob.png") no-repeat center center / cover;
   }
 
   &__block {
     border-radius: 32px 0 0 32px;
     background-color: $primary;
+
     @media screen and (max-width: 1023px) {
       border-radius: 16px;
       margin-bottom: -900px;
