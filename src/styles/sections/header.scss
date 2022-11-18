@@ -1,0 +1,89 @@
+.header {
+  padding: 64px 0;
+  @media screen and (max-width: 1023px) {
+    padding: 0 16px 24px;
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    gap: 53px;
+    @media screen and (max-width: 1023px) {
+      flex-direction: column;
+      gap: 16px;
+    }
+  }
+
+  &__caption-container {
+    max-width: 803px;
+    padding: 32px 48px 32px 336px;
+    border-radius: 0px 24px 24px 0px;
+    background-color: $primary;
+    color: $white;
+    text-align: right;
+    @media screen and (max-width: 1023px) {
+      padding: 16px 52px;
+      text-align: center;
+      border-radius: 0 0 24px 24px;
+    }
+  }
+
+  &__title {
+    font-size: clamp(20px, 4vw, 38px);
+    line-height: clamp(26px, 4vw, 46px);
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  &__logos {
+    display: flex;
+    gap: 22px;
+
+    @media screen and (max-width: 1023px) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+    }
+
+    div {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      @media screen and (max-width: 1023px) {
+        &:first-child {
+          justify-content: center;
+          grid-column: span 2;
+
+          span {
+            display: none;
+          }
+        }
+      }
+
+      span {
+        flex-shrink: 0;
+        display: block;
+        width: 2px;
+        height: 53px;
+        background-color: $lightGrey;
+      }
+    }
+  }
+
+  @media screen and (max-width: 1023px) {
+    .technodom-logo {
+      width: 201px;
+      height: 41px;
+    }
+
+    .vivo-logo {
+      width: 118px;
+      height: 42px;
+    }
+
+    .fifa-logo {
+      width: 116px;
+      height: 60px;
+    }
+  }
+}
