@@ -8,5 +8,12 @@
 @import "./abstracts/fonts.scss";
 
 #wrapper {
+  max-width: 1920px;
+  margin: 0 auto 0;
   font-family: "Museo", "Segoe UI", "Arial", sans-serif;
+  @import "sections/header";
+
+  img {
+    max-width: 100%;
+  }
 }
