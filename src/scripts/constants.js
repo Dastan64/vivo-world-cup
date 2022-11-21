@@ -27,4 +27,3 @@ export const productLink = document.querySelector('.product__link');
 export const infoGrid = document.querySelector('.info__grid');
 export const infoTabsContainer = document.querySelector('.info__tabs')
 export const infoTabs = document.querySelectorAll('.tabs__btn')
-export const gridItemColorTabs = document.querySelector('.grid__item-color-tabs')
