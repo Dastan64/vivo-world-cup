@@ -25,7 +25,6 @@ function selectModel() {
             });
 
             productColorTabs[0].classList.add('product__color-tab_active')
-            console.log(target.dataset.model)
 
             store.model = target.dataset.model
 
