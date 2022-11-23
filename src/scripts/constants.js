@@ -1,4 +1,5 @@
 export const mainProductImage = document.querySelector('.product__image');
+export const moreInfoLinks = document.querySelectorAll('.hero__link');
 
 // images
 export const productThumbsList = document.querySelector('.product__thumbs-list');
@@ -8,6 +9,9 @@ export const productThumbImages = document.querySelectorAll('.product__thumb-ima
 // model
 export const productModelTabsContainer = document.querySelector('.product__model-tabs');
 export const productModelTabs = document.querySelectorAll('.product__model-tab');
+
+//contest
+export const contestSection = document.querySelector('#contest');
 
 // color
 export const productColorTabsContainer = document.querySelector('.product__color-tabs');

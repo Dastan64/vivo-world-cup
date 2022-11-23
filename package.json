@@ -22,5 +22,8 @@
   },
   "staticFiles": {
     "staticPath": "./src/static"
+  },
+  "dependencies": {
+    "smoothscroll-polyfill": "^0.4.4"
   }
 }

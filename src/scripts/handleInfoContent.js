@@ -66,8 +66,6 @@ export const handleInfoContent = () => {
                                             <img src="https://www.technodom.kz/under/banners/vivo-world-cup/eye-care.png" alt="">
                                         </li>
                                     </ul>
-                                    <a href="/catalog/smartfony-i-gadzhety/smartfony-i-telefony/smartfony/f/brands/vivo/cl-smartphones-main-spec-292/vivo-v25e"
-                                       class="grid__item-link">В магазин</a>
                                 </div>
                                 <figure>
                                     <img src="https://www.technodom.kz/under/banners/vivo-world-cup/grid-v25e/vivo-v25e-4.png"
@@ -226,8 +224,6 @@ export const handleInfoContent = () => {
                                             <p>Испытания на устойчивость к экстремальным условиям (хранение)</p>
                                         </li>
                                     </ul>
-                                    <a href="/catalog/smartfony-i-gadzhety/smartfony-i-telefony/smartfony/f/brands/vivo/cl-smartphones-main-spec-292/vivo-v25-pro"
-                                       class="grid__item-link">В магазин</a>
                                 </div>
                                 <figure>
                                     <img src="https://www.technodom.kz/under/banners/vivo-world-cup/grid-v25pro/vivo-v25pro-5.png"
@@ -382,8 +378,6 @@ export const handleInfoContent = () => {
                                             <p>Испытания на устойчивость к экстремальным условиям (хранение)</p>
                                         </li>
                                     </ul>
-                                    <a href="/catalog/smartfony-i-gadzhety/smartfony-i-telefony/smartfony/f/brands/vivo/cl-smartphones-main-spec-292/vivo-v25"
-                                       class="grid__item-link">В магазин</a>
                                 </div>
                                 <figure>
                                     <img src="https://www.technodom.kz/under/banners/vivo-world-cup/grid-v25/vivo-v25-4.png"
@@ -475,7 +469,7 @@ export const handleInfoContent = () => {
                             <p style="margin: 0;">В нашем магазине ты можешь посмотреть ещё больше актуальных и новых
                                 моделей VIVO</p>
                             <a href="/catalog/smartfony-i-gadzhety/smartfony-i-telefony/smartfony/f/brands/vivo"
-                               class="grid__item-link grid__item-link--blue">В магазин</a>
+                               class="grid__item-link grid__item-link--blue">Подробнее</a>
                             <figure>
                                 <img src="https://www.technodom.kz/under/banners/vivo-world-cup/grid-v25/vivo-v25-9.png"
                                      alt="">
